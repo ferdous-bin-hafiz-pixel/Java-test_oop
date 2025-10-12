@@ -1,0 +1,73 @@
+import java.util.Scanner;
+
+class SimpleCalculator {
+
+    public static void addition(int a, int b) {
+        int result = a + b;
+        System.out.println("Addition = " + result);
+    }
+
+    public static void subtraction(int a, int b) {
+        if (a < b) {
+            System.out.println("Subtraction not possible: first number is smaller than second number.");
+        } else {
+            int result = a - b;
+            System.out.println("Subtraction = " + result);
+        }
+    }
+
+    public static void multiplication(int a, int b) {
+        int result = a * b;
+        System.out.println("Multiplication = " + result);
+    }
+
+    public static void division(int a, int b) {
+        if (b == 0) {
+            System.out.println("Division by zero is not possible.");
+        } else {
+            int result = a / b;  // integer division
+            System.out.println("Division = " + result);
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int num1, num2, choice;
+
+        System.out.println("===== SIMPLE CALCULATOR =====");
+        System.out.print("Enter first number: ");
+        num1 = input.nextInt();
+
+        System.out.print("Enter second number: ");
+        num2 = input.nextInt();
+
+        System.out.println("\nChoose operation:");
+        System.out.println("1. Addition");
+        System.out.println("2. Subtraction");
+        System.out.println("3. Multiplication");
+        System.out.println("4. Division");
+        System.out.print("Enter your choice (1-4): ");
+        choice = input.nextInt();
+
+        System.out.println("\n------------------------------");
+
+        switch (choice) {
+            case 1:
+                addition(num1, num2);
+                break;
+            case 2:
+                subtraction(num1, num2);
+                break;
+            case 3:
+                multiplication(num1, num2);
+                break;
+            case 4:
+                division(num1, num2);
+                break;
+            default:
+                System.out.println("Invalid choice! Please choose between 1 to 4.");
+        }
+
+        input.close();
+    }
+}
