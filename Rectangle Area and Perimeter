@@ -1,6 +1,6 @@
 import java.util.Scanner; 
 
-class  {
+class Rectangle{
 
     public static void main(String[] args) {
 
