@@ -1,1 +1,80 @@
+import java.util.Scanner;
+
+public class CGPACalculator {
+
+    public static double getGradePoint(double total) {
+        if (total >= 80) return 4.00;
+        else if (total >= 75) return 3.75;
+        else if (total >= 70) return 3.50;
+        else if (total >= 65) return 3.25;
+        else if (total >= 60) return 3.00;
+        else if (total >= 55) return 2.75;
+        else if (total >= 50) return 2.50;
+        else if (total >= 45) return 2.25;
+        else if (total >= 40) return 2.00;
+        else return 0.00;
+    }
+
+    public static String getGradeLetter(double cgpa) {
+        if (cgpa >= 4.00) return "A+";
+        else if (cgpa >= 3.75) return "A";
+        else if (cgpa >= 3.50) return "A-";
+        else if (cgpa >= 3.25) return "B+";
+        else if (cgpa >= 3.00) return "B";
+        else if (cgpa >= 2.75) return "B-";
+        else if (cgpa >= 2.50) return "C+";
+        else if (cgpa >= 2.25) return "C";
+        else if (cgpa >= 2.00) return "D";
+        else return "F";
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter Student ID: ");
+        String studentID = sc.nextLine();
+
+        System.out.print("Enter No. of Courses: ");
+        int n = sc.nextInt();
+
+        double totalCredit = 0, earnedCredit = 0, totalPoints = 0;
+
+        for (int i = 1; i <= n; i++) {
+            System.out.println("\nCourse " + i + ":");
+
+            System.out.print("Credit (Max 3): ");
+            double credit = sc.nextDouble();
+
+            System.out.print("CT (Max 30): ");
+            double ct = sc.nextDouble();
+
+            System.out.print("AT (Max 10): ");
+            double at = sc.nextDouble();
+
+            System.out.print("FE (Max 60): ");
+            double fe = sc.nextDouble();
+
+            double totalMarks = ct + at + fe;
+            double gp = getGradePoint(totalMarks);
+
+            totalCredit += credit;
+            totalPoints += gp * credit;
+
+            if (gp >= 2.00)
+                earnedCredit += credit;
+        }
+
+        double cgpa = totalPoints / totalCredit;
+
+        System.out.println("\n===============================");
+        System.out.println("Student ID: " + studentID);
+        System.out.println("Credit Taken: " + (int) totalCredit);
+        System.out.println("Credit Earned: " + (int) earnedCredit);
+        System.out.printf("CGPA: %.2f\n", cgpa);
+        System.out.println("Grade: " + getGradeLetter(cgpa));
+        System.out.println("===============================");
+
+        sc.close();
+    }
+}
 
