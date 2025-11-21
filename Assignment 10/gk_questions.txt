@@ -25,3 +25,128 @@ B) Water
 C) Oxygen
 D) Hydrogen
 ANSWER: B
+
+Q: What is the largest ocean on Earth?
+A) Atlantic Ocean
+B) Indian Ocean
+C) Arctic Ocean
+D) Pacific Ocean
+ANSWER: D
+
+Q: Who is the author of the Harry Potter series?
+A) J.R.R. Tolkien
+B) George R.R. Martin
+C) J.K. Rowling
+D) Suzanne Collins
+ANSWER: C
+
+Q: What is the smallest planet in our solar system?
+A) Mercury
+B) Mars
+C) Venus
+D) Pluto
+ANSWER: A
+
+Q: What element does "O" represent on the periodic table?
+A) Oxygen
+B) Osmium
+C) Ozone
+D) Obsidian
+ANSWER: A
+
+Q: In which country did the Olympic Games originate?
+A) France
+B) United Kingdom
+C) Greece
+D) Italy
+ANSWER: C
+
+Q: What is the capital of Japan?
+A) Seoul
+B) Beijing
+C) Tokyo
+D) Manila
+ANSWER: C
+
+Q: Which animal is known as the king of the jungle?
+A) Elephant
+B) Tiger
+C) Lion
+D) Gorilla
+ANSWER: C
+
+Q: What is the hardest natural substance on Earth?
+A) Gold
+B) Iron
+C) Diamond
+D) Graphene
+ANSWER: C
+Q: What is the capital of Italy?
+A) Rome
+B) Venice
+C) Milan
+D) Florence
+ANSWER: A
+
+Q: Who invented the telephone?
+A) Alexander Graham Bell
+B) Thomas Edison
+C) Nikola Tesla
+D) Albert Einstein
+ANSWER: A
+
+Q: Which element has the chemical symbol 'Na'?
+A) Nitrogen
+B) Sodium
+C) Nickel
+D) Neon
+ANSWER: B
+
+Q: What is the largest continent by land area?
+A) Africa
+B) Asia
+C) North America
+D) Europe
+ANSWER: B
+
+Q: Who painted the Mona Lisa?
+A) Vincent van Gogh
+B) Pablo Picasso
+C) Leonardo da Vinci
+D) Claude Monet
+ANSWER: C
+
+Q: What is the capital of Canada?
+A) Toronto
+B) Vancouver
+C) Ottawa
+D) Montreal
+ANSWER: C
+
+Q: Which gas do plants absorb from the atmosphere to produce oxygen?
+A) Nitrogen
+B) Carbon Dioxide
+C) Oxygen
+D) Hydrogen
+ANSWER: B
+
+Q: What is the largest planet in our solar system?
+A) Earth
+B) Jupiter
+C) Saturn
+D) Uranus
+ANSWER: B
+
+Q: Who wrote the play "Romeo and Juliet"?
+A) Charles Dickens
+B) Mark Twain
+C) William Shakespeare
+D) Jane Austen
+ANSWER: C
+
+Q: What is the main ingredient in guacamole?
+A) Tomato
+B) Avocado
+C) Onion
+D) Pepper
+ANSWER: B
